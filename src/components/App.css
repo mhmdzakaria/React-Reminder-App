@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+}
+.App {
+  width: 50%;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: #052534;
+  margin: 27px auto;
+  box-shadow: 1px 2px 5px black;
+  margin-top: 5%;
+}
+
+.App img {
+  width: 17%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.closeIcon {
+  position: absolute;
+  background-color: red;
+  top: 5px;
+  right: 0px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  display: block;
+}
+
+.reminder-title {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  /* text-decoration: underline; */
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+input {
+  margin: 10px 0;
+}
+
+list-group-item {
+  margin: 5px 0;
+}
+
+.clear-reminder {
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  margin: 10px !important;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 30px !important;
+}
+
+.form-control {
+  width: 80% !important;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.list-group {
+  width: 50%;
+}
+
+.list-group-item {
+  height: 70px;
+  display: flex;
+
+  align-items: center;
+}
